@@ -34,8 +34,13 @@
     border-bottom: 20px;
     
 }
-.menu{
-    background-color: #367dad;
+.menu .nav-item a{
+    color: white;
+    background-color: black;
+    font-size: 30px;
+    padding: 15px;
+    border-radius: 10px;
+    margin: 5px;
 }
 .menu li a:hover{
     color: #f8f8f9;

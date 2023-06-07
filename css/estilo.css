@@ -35,20 +35,20 @@
     
 }
 .menu .nav-item a{
-    color: white;
-    background-color: black;
+    color: rgb(14, 14, 14);
+    background-color: #5ba4cb;
     font-size: 30px;
     padding: 15px;
     border-radius: 10px;
     margin: 5px;
 }
 .menu li a:hover{
-    color: #f8f8f9;
-    background-color: #fb4545;
-    border-radius: 30%;
+    color: #fafafa;
+    background-color: #e7c07df6;
+    border-radius: 20px;
 }
 .fondo{
-    background-image: url(../img/fondo\ 2.jpg);
+    background-image: url("../img/fondo\ spider\ man.jpg");
     background-repeat: none;
     background-size: cover;
 }

@@ -1,0 +1,128 @@
+    @import "preguntas.scss";
+    @import "contacto.scss";
+    @import "proximamente.scss";
+    @import "productos.scss";
+    .logo{
+        margin: 10px;
+        padding-top: 10px;
+        padding-bottom: 50px;
+        img{
+            width: 100px;
+            border-radius: 10px;
+        }
+    }
+    header
+        h1{
+               font-family: 'Rock Salt', cursiva;
+                  text-align: center;
+                   padding: 10px;
+                   color: #f6fe03;}
+        .menu{
+            .nav-item{
+                   a{
+                        color: rgb(14, 14, 14);
+                                background-color: #5ba4cb;
+                            font-size: 30px;
+                                padding: 15px;
+                                border-radius: 10px;
+                                margin: 5px;
+                                &:hover{
+                                           color: #fafafa;
+                                           background-color: #e7c07df6;
+                                          border-radius: 20px;}
+                }
+    
+            }
+    }
+    .fondo{   
+               background-repeat: none;
+               background-size: cover;}
+    main{
+        .titulo2{
+                  font-family: 'Nanum Gothic Coding', monoespaciado; 
+                          color: #ad05fb;
+                          padding: 10px;}
+    
+        .titulo3{    
+                 font-family:'Nanum Gothic Coding', monoespaciado; 
+                         padding: 10px;
+                         color: #ad05fb;}
+    
+        .titulo-producto{
+                      text-align: center;
+                          color: #c8f027;
+                          padding: 30px;
+                          font-family:'Rock Salt', cursiva;}	
+     
+    }
+    .footer{  
+        color: #f8f8f9;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    }
+    body{   
+        background-image: url("../img/fondo\ spider\ man.jpg");
+          background-repeat: none;
+          background-size: cover;
+header{
+   h1{
+          font-family: 'Rock Salt', cursiva;
+             text-align: center;
+              padding: 10px;
+              color: #f6fe03;}
+   .menu{
+       .nav-item{
+              a{
+                   color: rgb(14, 14, 14);
+                           background-color: #5ba4cb;
+                       font-size: 30px;
+                           padding: 15px;
+                           border-radius: 10px;
+                           margin: 5px;
+                           &:hover{
+                                      color: #fafafa;
+                                      background-color: #e7c07df6;
+                                     border-radius: 20px;}
+              }
+           }
+
+       }
+}
+
+main{
+   .titulo2{
+             font-family: 'Nanum Gothic Coding', monoespaciado; 
+                     color: #9fc095;
+                     padding: 10px;}
+
+   .titulo3{    
+            font-family:'Nanum Gothic Coding', monoespaciado; 
+                    padding: 10px;
+                    color:#9fc095;}
+
+   .titulo-producto{
+                 text-align: center;
+                     color: #c8f027;
+                     padding: 30px;
+                     font-family:'Rock Salt', cursiva;}	
+
+}
+.footer{  
+   color: #f8f8f9;
+       font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+   }
+
+}
+.titulo-info1{
+    h1{
+        color: #5ba4cb;}
+}
+.productos-destacados{
+    img:hover{
+        transform: scale(1.1);
+    }
+}
+.productos-en-oferta{
+    img:hover{
+        transform: scale(1.1);
+    }
+}

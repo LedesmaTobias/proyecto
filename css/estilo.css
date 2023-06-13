@@ -1,265 +1,146 @@
-*{
-    margin: 0;
-    padding: 0;
-}
-.logo{
-    margin: 10px;
-    padding-top: 10px; 
-    padding-bottom: 50px;
-}
-.logo img{
+body h1 {
+  color: #9fc095;
+  font-size: 2rem;
+  font-family: 'Nanum Gothic Coding', monoespaciado; }
+
+main h1 {
+  color: #9fc095;
+  font-family: 'Nanum Gothic Coding', monoespaciado;
+  padding: 10px; }
+
+main h3 {
+  color: white;
+  padding: 10px; }
+
+main .nombre {
+  color: white;
+  padding: 5px; }
+
+main .apellido {
+  color: white;
+  padding: 5px; }
+
+main .email {
+  color: white;
+  padding: 5px; }
+
+main .telefono {
+  color: white;
+  padding: 5px; }
+
+main .descripcion-producto {
+  color: white;
+  padding: 5px; }
+
+main .titulo-redes {
+  padding: 10px; }
+
+.titulo-prox2 {
+  color: #9fc095;
+  font-size: 2rem;
+  font-family: 'Nanum Gothic Coding', monoespaciado;
+  text-align: center; }
+
+.cardMia {
+  background-color: white; }
+  .cardMia .card-text {
+    padding: 5px; }
+  .cardMia .h5 {
+    padding: 900px; }
+
+.logo {
+  margin: 10px;
+  padding-top: 10px;
+  padding-bottom: 50px; }
+  .logo img {
     width: 100px;
-    border-radius: 10px;
-}
-.productos-destacados img{
-    padding: 20px;
-    margin: 0 auto;
-    border-radius: 30px;
-    width: 300px;
-    height: 300px;
-    border-bottom: 20px;
-}
-.titulo1{
-   font-family: 'Rock Salt', cursiva;
+    border-radius: 10px; }
+
+header
+h1 {
+  font-family: 'Rock Salt', cursiva;
+  text-align: center;
+  padding: 10px;
+  color: #f6fe03; }
+
+.menu .nav-item a {
+  color: #0e0e0e;
+  background-color: #5ba4cb;
+  font-size: 30px;
+  padding: 15px;
+  border-radius: 10px;
+  margin: 5px; }
+  .menu .nav-item a:hover {
+    color: #fafafa;
+    background-color: #e7c07df6;
+    border-radius: 20px; }
+
+.fondo {
+  background-repeat: none;
+  background-size: cover; }
+
+main .titulo2 {
+  font-family: 'Nanum Gothic Coding', monoespaciado;
+  color: #ad05fb;
+  padding: 10px; }
+
+main .titulo3 {
+  font-family: 'Nanum Gothic Coding', monoespaciado;
+  padding: 10px;
+  color: #ad05fb; }
+
+main .titulo-producto {
+  text-align: center;
+  color: #c8f027;
+  padding: 30px;
+  font-family: 'Rock Salt', cursiva; }
+
+.footer {
+  color: #f8f8f9;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; }
+
+body {
+  background-image: url("../img/fondo spider man.jpg");
+  background-repeat: none;
+  background-size: cover; }
+  body header h1 {
+    font-family: 'Rock Salt', cursiva;
     text-align: center;
     padding: 10px;
-    color: #f6fe03;
-}
-.productos-en-oferta img{
-    padding: 10px;
-    margin: 10px;
-    border-radius: 30px;
-    width: 300px;
-    height: 300px;
-    border-bottom: 20px;
-    
-}
-.menu .nav-item a{
-    color: rgb(14, 14, 14);
+    color: #f6fe03; }
+  body header .menu .nav-item a {
+    color: #0e0e0e;
     background-color: #5ba4cb;
     font-size: 30px;
     padding: 15px;
     border-radius: 10px;
-    margin: 5px;
-}
-.menu li a:hover{
-    color: #fafafa;
-    background-color: #e7c07df6;
-    border-radius: 20px;
-}
-.fondo{
-    background-image: url("../img/fondo\ spider\ man.jpg");
-    background-repeat: none;
-    background-size: cover;
-}
-.titulo2{
-    font-family: 'Nanum Gothic Coding', monoespaciado; 
-    color: #ad05fb;
+    margin: 5px; }
+    body header .menu .nav-item a:hover {
+      color: #fafafa;
+      background-color: #e7c07df6;
+      border-radius: 20px; }
+  body main .titulo2 {
+    font-family: 'Nanum Gothic Coding', monoespaciado;
+    color: #9fc095;
+    padding: 10px; }
+  body main .titulo3 {
+    font-family: 'Nanum Gothic Coding', monoespaciado;
     padding: 10px;
-
-}
-.titulo3{
-    font-family:'Nanum Gothic Coding', monoespaciado; 
-    padding: 10px;
-    color: #ad05fb; 
-}
-.titulo-producto{
+    color: #9fc095; }
+  body main .titulo-producto {
     text-align: center;
     color: #c8f027;
     padding: 30px;
-    font-family:'Rock Salt', cursiva;
-}
-.productos img{
-    padding: 10px;
-    margin: 0 auto;
-    border-radius: 30px;
-
-}
-.caja1{
-    display: flex;
-}
-
-.caja2 img{
-    margin-right: 10px;
-    padding: 10px;
-    border-radius: 30px; 
-}
-   
-.formulario{
-    padding: 10px;
-}
-.titulo-formulario{
-    text-align: center;
-    padding: 20px;
-}
-.nombre{
-    padding: 5px;
-    margin: 10px;
-}
-.subtitulo-form{
-    padding: 10px;
-    font-family:'Nanum Gothic Coding', monoespaciado;
-    color: #367dad
-}
-.apellido{
-    padding: 5px;
-    margin: 10px;
-}
-.email{
-    padding: 5px;
-    margin: 10px;
-}
-.telefono{
-    padding: 5px;
-    margin: 10px;
-}
-.descripcion-producto{
-    padding: 5px;
-    margin: 10px;
-}
-.fin-formulario{
-    padding: 5px;
-    margin: 10px;
-}
-.titulo-redes{
-    padding: 20px;
-    text-align: center;
-    font-family:'Nanum Gothic Coding', monoespaciado;
-    color: #367dad
-}
-.titulo-contacto{
-    text-align:center ;
-    padding: 20px;
-    font-family:'Nanum Gothic Coding', monoespaciado;
-    color: #367dad;
-}
-.fondo-contacto{
-    background-image: url(../img/fondo\ contacto.jpg);
-    background-repeat: none;
-    background-size: cover;
-}
-.icono-ig{
-    padding: 10px;
-    margin: 10px;
-    font-family:'Nanum Gothic Coding', monoespaciado;
-}
-.icono-fb{
-    text-align: center; 
-}
-.titulo-info{
-    padding: 10px;
-    margin: 10px;
-    font-family:'Nanum Gothic Coding', monoespaciado;
-    color: brown;
-}
-.titulo-info1{
-    text-align: center;
-    padding: 10px;
-    margin: 10px;
-    font-family:'Nanum Gothic Coding', monoespaciado;
-    color: chocolate;
-}
-.parrafo{
-    padding: 10px;
-}
-.subtitulos{
-    padding: 10px;
-    font-family: Arial, Helvetica, sans-serif;
-    color: brown;
-}
-.body-info{
-    font-family: 'Times New Roman', Times, serif;
-    padding: 5px;
-    background-color: #cbf1e4; 
-}
-.proximamente img{
-    padding: 20px;
-    border-radius: 30px;
-    display: flex;
-}
-.titulo-prox{
-    text-align: center;
-    padding: 20px;
-    font-family:'Rock Salt', cursiva;
-}
-.titulo-prox2{
-    padding: 20px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-}
-.fondo-prox{
-    background-image: url(../img/fondo\ proximamente.jpg);
-    background-repeat: none;
-    background-size: cover;
-}
-.fondo-producto{
-    background-image: url(../img/fondo\ producto.jpg);
-    background-repeat: none;
-    background-size: cover;
-}
-.proximamente{
-    display: flex;
-}
-.parrafo-cell{
-    padding: 5px;
-    text-align: center;
-}
-
-footer{
+    font-family: 'Rock Salt', cursiva; }
+  body .footer {
     color: #f8f8f9;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-}
-.fondo-preguntas{
-    background-image: url(../img/fondo\ preguntas.jpg);
-    background-repeat: none;
-    background-size: cover;
-}
-.cardMia{
-    background-color: #ffffff;
-    font-family: Arial, Helvetica, sans-serif;
-    padding: 10px;
-    justify-content: center;
-}
-@media only screen and (max-width: 420px){
-    .fondo{
-        background-color: palegreen;
-        font-family: Arial, Helvetica, sans-serif;
-        background-image: url(../img/fondo\ mobile.jpg);
-        padding: 30px;
-    }
-    }
-    .titulo2{
-        margin-left: 30px;
-        font-family: 'Times New Roman', Times, serif;
-        color: mediumseagreen;
-    }
-    .titulo3{
-        margin-left: 30px;
-        font-family: 'Times New Roman', Times, serif;
-        color: mediumseagreen;
-    }
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; }
 
+.titulo-info1 h1 {
+  color: #5ba4cb; }
 
+.productos-destacados img:hover {
+  transform: scale(1.1); }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-    
-
-
-
-    
-    
-    
-    
-
-
+.productos-en-oferta img:hover {
+  transform: scale(1.1); }
